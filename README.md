@@ -124,3 +124,8 @@ https://github.com/stericardo/amaris-steven
 
 ![alt text](https://github.com/stericardo/amaris-steven/blob/main/work2.png?raw=true)
 
+# Run application
+mvn clean install
+mvn spring-boot:run
+http://localhost:8081/h2
+Postman collection for test

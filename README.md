@@ -71,7 +71,7 @@ Desarrollar unos test al endpoint rest que  validen las siguientes peticiones al
 
  
 
-#Se valorará:
+# Se valorará:
 
 Diseño y construcción del servicio.
 Calidad de Código.
@@ -98,13 +98,13 @@ Resultados correctos en los test.
 # Submission
 https://github.com/stericardo/amaris-steven
 
-#H2
+# H2
 ![alt text](https://github.com/stericardo/amaris-steven/blob/main/h2-all.png?raw=true)
 
-#Postman collection
+# Postman collection
 ![alt text](https://github.com/stericardo/amaris-steven/blob/main/postman-allprices-GET.png?raw=true)
 
-#Invalid Inputs
+# Invalid Inputs
 
 ![alt text](https://github.com/stericardo/amaris-steven/blob/main/productnot.png?raw=true)
 
@@ -119,7 +119,7 @@ https://github.com/stericardo/amaris-steven
 ![alt text](https://github.com/stericardo/amaris-steven/blob/main/invalid-startDate.png?raw=true)
 
 
-#Working as expected
+# Working as expected
 ![alt text](https://github.com/stericardo/amaris-steven/blob/main/work1.png?raw=true)
 
 ![alt text](https://github.com/stericardo/amaris-steven/blob/main/work2.png?raw=true)

@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "43e49e03-6575-4059-9e22-501ae002b367",
+		"name": "amaris",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Prices",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8081/prices",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get prices byProduct Brand and Dates",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"startDate\":\"2020-06-13T00:00:00\",\r\n    \"endDate\":\"2020-12-31T23:59:59\",\r\n    \"brand\":1,\r\n    \"product\":35455\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/prices/byProductBrandAndDates",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"prices",
+						"byProductBrandAndDates"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
